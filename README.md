@@ -1,5 +1,5 @@
 # SDD
-SDD - Standard for DNA Damage specification
+SDD - Standard data format to record DNA Damage
 
 The documentation is written in reStructuredText format (reST). It is hosted by ReadTheDocs. A good resource on reST is the Sphinx documentation, but please note that not all features described there are supported by ReadTheDocs. It also describes some Python-only features, since that is its domain.
 
