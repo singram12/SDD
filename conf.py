@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
 # Configuration file for the Sphinx documentation builder.
@@ -12,21 +13,22 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-# import os
-# import sys
+import os
+import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
 
 # -- Project information -----------------------------------------------------
+# General information about the project.
 
-project = u'SDD'
-copyright = u'2018, Jan Schuemann'
-author = u'Jan Schuemann'
+project = 'SDD'
+copyright = '2018,The SDD Collaboration'
+author = 'The SDD Collaboration'
 
 # The short X.Y version
-version = u''
+version = '1.0'
 # The full version, including alpha/beta/rc tags
-release = u'1.0'
+release = '1.0'
 
 
 # -- General configuration ---------------------------------------------------
@@ -39,10 +41,10 @@ release = u'1.0'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'sphinx.ext.imgmath',
-    'sphinx.ext.githubpages',
+    'sphinx.ext.mathjax',
+    'sphinx.ext.viewcode',
+    'sphinx.ext.todo',
 ]
-
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
@@ -73,6 +75,14 @@ pygments_style = 'sphinx'
 
 # -- Options for HTML output -------------------------------------------------
 
+# on_rtd is whether we are on readthedocs.org
+on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
+if not on_rtd:  # only import and set the theme if we're building docs locally
+    import sphinx_rtd_theme
+    html_theme = 'sphinx_rtd_theme'
+    html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+# otherwise, readthedocs.org uses their theme by default, so no need to specify it
+
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
@@ -99,6 +109,9 @@ html_static_path = ['_static']
 #
 # html_sidebars = {}
 
+
+# Output file base name for HTML help builder.
+htmlhelp_basename = 'SDDdoc'
 
 # -- Options for HTMLHelp output ---------------------------------------------
 
