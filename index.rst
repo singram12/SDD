@@ -3,13 +3,21 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to SDD's documentation!
-===============================
+Welcome to the documentation of the SDD - the Standard data format to record DNA Damages!
+=========================================================================================
+.. note::
+    The original paper for the SDD can be found here:
+
+.. note::
+    A PDF version of the documentation is found by clicking the "Read the Docs" panel in the bottom-left corner of the website.
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
+.. toctree::
+    :maxdepth: 1
+    :caption: Getting Started
 
 
 Indices and tables
