@@ -7,10 +7,10 @@ Welcome to the documentation of the SDD - the Standard data format to record DNA
 =========================================================================================
 .. note::
     This page will be fully avaialable as soon as the manuscript is accepted for publicaiton.
-    The original paper for the SDD is submitted.
+    The status of the current paper for the SDD is: "Submitted on 6/14".
 
-.. note::
-    A PDF version of the documentation is found by clicking the "Read the Docs" panel in the bottom-left corner of the website.
+#.. note::
+#    A PDF version of the documentation is found by clicking the "Read the Docs" panel in the bottom-left corner of the website.
 
 .. toctree::
    :maxdepth: 2
