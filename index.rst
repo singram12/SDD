@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to the documentation of the SDD - the Standard data format to record DNA Damages!
+Welcome to the documentation of the Standard data DNA Damages (SDD) data format!
 =========================================================================================
 .. note::
     This page will be fully avaialable as soon as the manuscript is accepted for publicaiton.
