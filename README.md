@@ -15,4 +15,4 @@ make clean
 make html
 open .build/html/index.html
 
-If you need a .rst renderer you can use http://socrates.io for quick visualisation
+If you need a .rst renderer you can use http://socrates.io for quick visualisation.
