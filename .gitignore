@@ -1,0 +1,6 @@
+#IDE Config Ignores
+.idea
+
+#Build Files
+_build
+
