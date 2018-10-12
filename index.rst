@@ -9,14 +9,23 @@ Welcome to the documentation of the Standard for DNA Damage (SDD) data format!
     This page will be fully avaialable as soon as the manuscript is accepted for publicaiton.
     The status of the current paper for the SDD is: "Submitted on 8/14".
 
+Getting Started
+======================
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :maxdepth: 1
+  docs/Introduction
+  docs/Creating
+  docs/Parsing
+  docs/Examples
 
+The SDD Collaboration
+=======================
 .. toctree::
-    :maxdepth: 1
-    :caption: Getting Started
-
+   :maxdepth: 1
+  docs/Members
+  docs/Mission
+  docs/Join
+  docs/Contribute
 
 Indices and tables
 ==================
