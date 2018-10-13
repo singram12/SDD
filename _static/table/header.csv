@@ -1,0 +1,28 @@
+Field, Value, Notes, Type
+1, SDD version, Version number of SDD definition, String (e.g. SDDv1.0)
+2, Software, "Program name, version and access link if any", String (Free text)
+3, Author, "Corresponding author, date, references", String (Free text)
+4, Simulation details, Description of details of simulation settings and parameters, String (Free text)
+5, Source, Description of source properties, String (Free text)
+6, Source Type, "Monoenergetic, distribution, phase space, GCR, ...", Int
+7, Incident particles, Definition of primary incident irradiation particle(s) in PDG code format, Int(s)
+8, Mean Particle Energy, Mean incident energy for each particle in MeV, Float(s)
+9, Energy Distribution, Fully energy distribution specification, String(s) + Floats
+10, Particle fraction, Fraction of fluence of each particle in field, Float(s)
+11, Dose or fluence, "Define dose of fluence in each exposure, or note that the simulation was for a single track", Int + Float (+ Float)
+12, Dose Rate, Dose rate of irradiation field, Float
+13, Irradiation Target, Description of simulated cell of target (DNA) region and microenviroment, String (Free text)
+14, Volumes, "Shape parameter plus X,Y,Z extents (µm)", 2x (Int + 6 Float)
+15, Chromosome sizes, Number and base pair size of chromosomes, Int + (Int) Floats
+16, DNA Density, Density of base pairs in volume (MBP/µm^3), Float
+17, Cell Cycle Phase, Cell cycle phase index and progression, Int + Float
+18, DNA structure, Additional field to define DNA structure, 2 Ints
+19, In vitro / in vivo, Experimental condition, Int
+20, Proliferation status, Proliferative or quiescent and status details, Int + String (Free text)
+21, Microenviroment, Temperature (°C) and molar O_2 concentration, 2 Float
+22, Damage definition, Define how types of damage were determined, 1 Float + 1 Int + 1 Bool + 2 Float
+23, Time, Time point at which damages were recorded, Float
+24, Damage and primary count, Number of distant damage lesions scored & primaries simulated, 2 Int
+25, Data Entries, Number of fields included in the data section, 14 Bool
+26, Additional Information, Field of additional information that may be relevant, String (Free text)
+27, "*****EndOfHeader*****", Empty field to mark end of header.
